@@ -1,8 +1,9 @@
 {
-  "name": "root",
+  "name": "order-manager",
   "private": true,
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "start": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^3.20.2"
@@ -27,5 +28,5 @@
     "typescript": "^3.8.2",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1"
-  }
+  },
 }
