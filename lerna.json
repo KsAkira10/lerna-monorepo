@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0",
+  "bootstrap": {
+    "hoist": [
+      "react",
+      "react-dom"
+    ],
+    "npmClientArgs": [
+      "--no-package-lock"
+    ]
+  }
+}
